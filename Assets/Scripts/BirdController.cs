@@ -5,9 +5,9 @@ using UnityEngine;
 
 public class BirdController : MonoBehaviour
 {
-    public float jumpForce; //Float türünde bir değişken oluşturduk. Bird'e zıplama gücü vereceğiz.
+    [SerializeField] private float jumpForce; //Float türünde bir değişken oluşturduk. Bird'e zıplama gücü vereceğiz.
 
-    public Rigidbody2D rb; //Bu classı Rigidbody'e bağladık.
+    [SerializeField] private Rigidbody2D rb; //Bu classı Rigidbody'e bağladık.
 
     private void Update()
     {
