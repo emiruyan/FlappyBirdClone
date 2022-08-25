@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Score
+  - Death
   layers:
   - Default
   - TransparentFX

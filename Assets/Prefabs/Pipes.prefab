@@ -71,7 +71,7 @@ GameObject:
   - component: {fileID: 8244229837030711771}
   m_Layer: 0
   m_Name: PipeDown
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 1690245213930694476}
   m_Layer: 0
   m_Name: PipeUp
-  m_TagString: Untagged
+  m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
