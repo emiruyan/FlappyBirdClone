@@ -19,9 +19,11 @@ public class SpawnController : MonoBehaviour
 
     private void Spawn() //Pipe'larımızın spawnlanmasını kontrol edeceğimiz method
     {
-        GameObject Instance = Instantiate(pipePrefab);  
+        GameObject Instance = Instantiate(pipePrefab);  //Instantiate edeceğimiz obje
         Instance.transform.position = new Vector2(x, Random.Range(minY, maxY));
         //                                                  minY ve maxY arasında rastgele Pipe üretecek.
+        
+        Instance.transform.SetParent(transform); //Klonlanan Pipe'ların birikmesini önledik.
     }
 
  
